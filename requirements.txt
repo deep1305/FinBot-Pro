@@ -1,0 +1,18 @@
+lancedb
+langchain
+langgraph
+tavily-python
+polygon
+langchain_community
+uvicorn
+fastapi[all]
+langchain_openai
+langchain-pinecone
+langchain_groq
+streamlit
+requests
+langchain_tavily
+pypdf
+docx2txt
+
+#-e .

@@ -1,0 +1,5 @@
+
+Here, we will have 3 tools which we will connect to our LLM.
+1. Own Knowledge Base - This will consist of documents in PDF format. We will transform them if necessary and store them in a vector database after performing embeddings using an Embedding Model.
+2. Internet - We can search the internet for the latest information that are not available in the pretrained LLM. We can use Bing, scraper API, Tavily, or DuckDuckGo search API.
+3. Real-time - We will use the Polygon API to get real-time updates for the stocks we are looking for.

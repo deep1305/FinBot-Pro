@@ -1,0 +1,23 @@
+vector_db:
+  index_name: "trading-bot"
+
+retriever:
+  top_k: 2
+  score_threshold: 0.7
+
+embedding_model:
+  provider: "openai"
+  model_name: "text-embedding-3-large"
+
+llm:
+  openai:
+    provider: "openai"
+    model_name: "gpt-4o"
+  
+  groq:
+    provider: "groq"
+    model_name: "deepseek-r1-distill-llama-70b"
+
+tools:
+  tavily:
+    max_results: 5
