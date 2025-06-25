@@ -8,8 +8,10 @@ __pycache__/
 # Virtual environment
 .venv/
 
-# Package locks
+# Package locks and Python version
 uv.lock
+Pipfile
+.python-version
 
 # Logs and analytics
 *.log
